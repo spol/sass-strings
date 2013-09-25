@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Sass::Strings::VERSION
   spec.authors       = ["Seb Pollard"]
   spec.email         = ["seb.p@haygarth.co.uk"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Provides helper functions for manipulating strings in Sass}
+  spec.summary       = %q{Provides helper functions for manipulating strings in Sass}
   spec.homepage      = ""
   spec.license       = "MIT"
 
