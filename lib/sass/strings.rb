@@ -7,6 +7,7 @@ module Sass::Script::Functions
         url = url.value
         no_ext = File.dirname(url) + '/' + File.basename(url, File.extname(url))
 
+        new_extension = new_extension.value
         new_extension.sub!(/^\./, "")
 
         Sass::Script::String.new(no_ext + '.' + new_extension)
