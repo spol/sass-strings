@@ -12,5 +12,13 @@ module Sass::Script::Functions
 
         Sass::Script::String.new(no_ext + '.' + new_extension)
     end
+
+    def replace(str, search, replace)
+        Sass::Script::String.new(str.value.gsub(search.value, replace.value))
+    end
+
+    def extension(url)
+        File.extname(url.value)
+    end
 end
 
